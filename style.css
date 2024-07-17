@@ -52,6 +52,7 @@ img.image{
 }
 
 .header-links{
+    
     color: #E5E7EB;
     font-size: 18px;
     margin-left: 18px;
@@ -125,12 +126,13 @@ img.image{
     margin-bottom: 100px;
 }
 .content{
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
     
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 52px;
+    gap: 24px;
 }
 
 .card{    
@@ -179,6 +181,7 @@ img.image{
     color: #E5E7EB;
     font-weight: bold;
     font-size: 24px;
+    flex-wrap: wrap;
 
     display: flex;
     align-items: center;
